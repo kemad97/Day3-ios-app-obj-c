@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "ProfileViewController.h"
 
 @interface ViewController ()
 
@@ -18,5 +19,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)btnProfile:(id)sender {
+    ProfileViewController *profileVC = [self.storyboard instantiateViewControllerWithIdentifier:@"profID"];
+    [self.navigationController pushViewController:profileVC animated:YES];
+}
 
 @end

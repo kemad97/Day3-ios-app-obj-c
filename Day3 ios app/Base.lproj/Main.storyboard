@@ -20,6 +20,15 @@
                                 <rect key="frame" x="76" y="300" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmK-Rr-KCf">
+                                <rect key="frame" x="159" y="602" width="91" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Profile"/>
+                                <connections>
+                                    <action selector="btnProfile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9R2-GH-bfe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -28,12 +37,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="1604"/>
+            <point key="canvasLocation" x="183.96946564885496" y="1603.5211267605634"/>
         </scene>
         <!--Proffle-->
         <scene sceneID="1Bs-YD-zzL">
             <objects>
-                <viewController id="Wqu-mW-nGd" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profID" id="Wqu-mW-nGd" customClass="ProfileViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S5I-io-jss">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

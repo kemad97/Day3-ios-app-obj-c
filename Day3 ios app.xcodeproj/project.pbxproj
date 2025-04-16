@@ -17,6 +17,7 @@
 		E13E841A2DAF175A0041005A /* Day3_ios_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E84192DAF175A0041005A /* Day3_ios_appTests.m */; };
 		E13E84242DAF175A0041005A /* Day3_ios_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E84232DAF175A0041005A /* Day3_ios_appUITests.m */; };
 		E13E84262DAF175A0041005A /* Day3_ios_appUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E84252DAF175A0041005A /* Day3_ios_appUITestsLaunchTests.m */; };
+		E1419B7B2DAF8CDD002C9811 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1419B7A2DAF8CDD002C9811 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E13E841F2DAF175A0041005A /* Day3 ios appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day3 ios appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13E84232DAF175A0041005A /* Day3_ios_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day3_ios_appUITests.m; sourceTree = "<group>"; };
 		E13E84252DAF175A0041005A /* Day3_ios_appUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day3_ios_appUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E1419B792DAF8CDD002C9811 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E1419B7A2DAF8CDD002C9811 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				E13E840B2DAF17590041005A /* LaunchScreen.storyboard */,
 				E13E840E2DAF17590041005A /* Info.plist */,
 				E13E840F2DAF17590041005A /* main.m */,
+				E1419B792DAF8CDD002C9811 /* ProfileViewController.h */,
+				E1419B7A2DAF8CDD002C9811 /* ProfileViewController.m */,
 			);
 			path = "Day3 ios app";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				E13E83FF2DAF17580041005A /* AppDelegate.m in Sources */,
 				E13E84102DAF17590041005A /* main.m in Sources */,
 				E13E84022DAF17580041005A /* SceneDelegate.m in Sources */,
+				E1419B7B2DAF8CDD002C9811 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
