@@ -17,6 +17,9 @@
 		E13E841A2DAF175A0041005A /* Day3_ios_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E84192DAF175A0041005A /* Day3_ios_appTests.m */; };
 		E13E84242DAF175A0041005A /* Day3_ios_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E84232DAF175A0041005A /* Day3_ios_appUITests.m */; };
 		E13E84262DAF175A0041005A /* Day3_ios_appUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E84252DAF175A0041005A /* Day3_ios_appUITestsLaunchTests.m */; };
+		E1419B7E2DAF9C12002C9811 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1419B7D2DAF9C12002C9811 /* FirstViewController.m */; };
+		E1419B812DAF9C1D002C9811 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1419B802DAF9C1D002C9811 /* SecondViewController.m */; };
+		E1419B842DAF9C32002C9811 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1419B832DAF9C32002C9811 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		E13E841F2DAF175A0041005A /* Day3 ios appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day3 ios appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13E84232DAF175A0041005A /* Day3_ios_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day3_ios_appUITests.m; sourceTree = "<group>"; };
 		E13E84252DAF175A0041005A /* Day3_ios_appUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day3_ios_appUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E1419B7C2DAF9C12002C9811 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E1419B7D2DAF9C12002C9811 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E1419B7F2DAF9C1D002C9811 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E1419B802DAF9C1D002C9811 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E1419B822DAF9C32002C9811 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E1419B832DAF9C32002C9811 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 				E13E840B2DAF17590041005A /* LaunchScreen.storyboard */,
 				E13E840E2DAF17590041005A /* Info.plist */,
 				E13E840F2DAF17590041005A /* main.m */,
+				E1419B7C2DAF9C12002C9811 /* FirstViewController.h */,
+				E1419B7D2DAF9C12002C9811 /* FirstViewController.m */,
+				E1419B7F2DAF9C1D002C9811 /* SecondViewController.h */,
+				E1419B802DAF9C1D002C9811 /* SecondViewController.m */,
+				E1419B822DAF9C32002C9811 /* ThirdViewController.h */,
+				E1419B832DAF9C32002C9811 /* ThirdViewController.m */,
 			);
 			path = "Day3 ios app";
 			sourceTree = "<group>";
@@ -266,10 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1419B812DAF9C1D002C9811 /* SecondViewController.m in Sources */,
 				E13E84052DAF17580041005A /* ViewController.m in Sources */,
 				E13E83FF2DAF17580041005A /* AppDelegate.m in Sources */,
+				E1419B7E2DAF9C12002C9811 /* FirstViewController.m in Sources */,
 				E13E84102DAF17590041005A /* main.m in Sources */,
 				E13E84022DAF17580041005A /* SceneDelegate.m in Sources */,
+				E1419B842DAF9C32002C9811 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
